@@ -1,10 +1,10 @@
 [project]
-name = "stactools-ephemeral"
+name = "stactools-usfs-lcms"
 version = "0.1.0"
-description = "PROVIDE DESCRIPTION HERE"
+description = "System for defining a STAC collection for the USFS LCMS dataset"
 readme = "README.md"
-authors = [{ name = "Your name here", email = "your-email@example.com" }]
-maintainers = [{ name = "Your name here", email = "your-email@example.com" }]
+authors = [{ name = "Henry Rodman", email = "henry@ncx.com" }]
+maintainers = [{ name = "Henry Rodman", email = "henry@ncx.com" }]
 keywords = ["stactools", "pystac", "catalog", "STAC"]
 license = { text = "Apache-2.0" }
 classifiers = [
@@ -33,8 +33,8 @@ dev = [
 ]
 
 [project.urls]
-Github = "https://github.com/stactools-packges/ephemeral"
-Issues = "https://github.com/stactools-packges/ephemeral/issues"
+Github = "https://github.com/stactools-packges/usfs-lcms"
+Issues = "https://github.com/stactools-packges/usfs-lcms/issues"
 
 [build-system]
 requires = ["setuptools", "wheel"]

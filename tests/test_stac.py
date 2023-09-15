@@ -1,4 +1,4 @@
-from stactools.ephemeral import stac
+from stactools.usfs_lcms import stac
 
 from . import test_data
 

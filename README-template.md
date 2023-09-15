@@ -1,18 +1,18 @@
-# stactools-ephemeral
+# stactools-usfs-lcms
 
-[![PyPI](https://img.shields.io/pypi/v/stactools-ephemeral?style=for-the-badge)](https://pypi.org/project/stactools-ephemeral/)
-![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/stactools-packages/ephemeral/continuous-integration.yml?style=for-the-badge)
+[![PyPI](https://img.shields.io/pypi/v/stactools-usfs-lcms?style=for-the-badge)](https://pypi.org/project/stactools-usfs-lcms/)
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/stactools-packages/usfs-lcms/continuous-integration.yml?style=for-the-badge)
 
-- Name: ephemeral
-- Package: `stactools.ephemeral`
-- [stactools-ephemeral on PyPI](https://pypi.org/project/stactools-ephemeral/)
+- Name: usfs-lcms
+- Package: `stactools.usfs_lcms`
+- [stactools-usfs-lcms on PyPI](https://pypi.org/project/stactools-usfs-lcms/)
 - Owner: @githubusername
 - [Dataset homepage](http://example.com)
 - STAC extensions used:
   - [proj](https://github.com/stac-extensions/projection/)
 - Extra fields:
-  - `ephemeral:custom`: A custom attribute
-- [Browse the example in human-readable form](https://radiantearth.github.io/stac-browser/#/external/raw.githubusercontent.com/stactools-packages/ephemeral/main/examples/collection.json)
+  - `usfs-lcms:custom`: A custom attribute
+- [Browse the example in human-readable form](https://radiantearth.github.io/stac-browser/#/external/raw.githubusercontent.com/stactools-packages/usfs-lcms/main/examples/collection.json)
 
 A short description of the package and its usage.
 
@@ -24,7 +24,7 @@ A short description of the package and its usage.
 ## Installation
 
 ```shell
-pip install stactools-ephemeral
+pip install stactools-usfs-lcms
 ```
 
 ## Command-line usage
@@ -32,10 +32,10 @@ pip install stactools-ephemeral
 Description of the command line functions
 
 ```shell
-stac ephemeral create-item source destination
+stac usfs-lcms create-item source destination
 ```
 
-Use `stac ephemeral --help` to see all subcommands and options.
+Use `stac usfs-lcms --help` to see all subcommands and options.
 
 ## Contributing
 
